@@ -1,0 +1,11 @@
+body {
+	background-image: url("../FJSuojK.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tarjeta {
+	display: inline-block;
+}
+#nuevaTarjeta{
+	display: none;
+}
