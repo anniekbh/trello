@@ -1,11 +1,28 @@
 body {
+	display: block;
 	background-image: url("../FJSuojK.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	box-sizing: border-box;
 }
-.tarjeta {
-	display: inline-block;
+header{
+	padding-bottom: 2%;
+}
+span:hover {
+	background-color:rgba(141, 199, 118, 0.57);
+}
+#agregarTarjeta{
+	padding: 2% 1%;
+	width: 25%;
+	height: 4rem;
+	border-radius: 3%;
 }
 #nuevaTarjeta{
 	display: none;
+	padding: 1%;
+	width: 25%;
+}
+#salida div {
+	background-color: #F9E620;
+	width: 25%;
 }

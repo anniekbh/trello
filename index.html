@@ -63,16 +63,17 @@
     </header>
     <section>
       <div class="container-fluid">
-        <div class="tarjeta bg-success">
-          <span id="agregarTarjeta">añadir lista...</span>
-          <form id="nuevaTarjeta">
+        <div class="tarjeta">
+          <span id="agregarTarjeta" class="bg-success">Añadir una lista...</span>
+          <form id="nuevaTarjeta" class="bg-success">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Text input" id="mensaje">
-              <button id="boton" type="submit" class="btn btn-default">squis</button>
+              <input type="text" class="form-control" placeholder="Añadir una lista..." id="mensaje">
+              <button id="boton" type="submit" class="btn btn-warning">Guardar</button>
             </div>
           </form>
         </div>
-        <div class="salida"></div>
+        <div id="salida">
+        </div>
       </div>
     </section>
 
